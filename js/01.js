@@ -1,2 +1,5 @@
 /* variables */
 
+function acelerar () {
+    
+}
