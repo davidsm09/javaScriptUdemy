@@ -9,4 +9,4 @@ const numero3 = 200.20;
 
 console.log(numero1 + numero2);
 
-//se puede realizar cualquier operacion matematica
+//se puede realizar cualquier operacion matematica suma resta multiplicacion  divicion etc
