@@ -10,3 +10,8 @@ const medidas = {
     peso: '1kg',
     medida: '1m'
 }
+
+// espread operator para unir dos objetos
+
+const nuevoProducto = { ...producto, ...medidas };
+
