@@ -25,6 +25,6 @@ sumar2();
 
 (function() {
     console.log('esto es una funcion');
-})(); //esta tipo de funcion se manda a llamar ella misma se invoca ella misma no se recomienda para reutilizar
+})(); //esta tipo de funcion se manda a llamar ella misma se invoca ella misma no se recomienda para reutilizar son utiles para protejer que no se mezclen con mas funciones
 
 
