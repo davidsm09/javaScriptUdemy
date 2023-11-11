@@ -14,6 +14,8 @@ const aprendiendo = (tecnologia) => console.log(`Aprendiendo ${tecnologia}`)
 
 aprendiendo('javaScript')
 
+const meses = ['enero',  'febrero', 'marzo', 'mayo', 'junio'];
+
 const carrito = [
     { nombre: 'minitor', precio: 500},
     { nombre: 'cel', precio: 300},
