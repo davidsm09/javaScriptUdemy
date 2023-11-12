@@ -1,6 +1,6 @@
 //Promesa
 
-const usuarioAutenticado = new Promise ( (resolve, reject) => {
+const usuarioAutenticado = new Promise( (resolve, reject) => {
     const auth = true;
     
     if(auth) {
@@ -11,10 +11,8 @@ const usuarioAutenticado = new Promise ( (resolve, reject) => {
 });
 
 usuarioAutenticado
-    .then( () => console.log(resultado))  //.then sirve para imprimir en pantalla el resultado de resolve de la promesa
-
-    .catch( () => console.log(error))  //.catch para ver en pantalla el mensaje de error
-
+    .then( resultado => console.log(resultado))  
+    .catch( error => console.log(error))   
 
 
 
