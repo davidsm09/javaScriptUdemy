@@ -6,5 +6,8 @@ boton.addEventListener('click', () => {
 
 
 if(Notification.permission == 'granted') {
-    new Notification('esta es una notificacion,')
+    new Notification('esta es una notificacion', {
+        icon: 'img/whatsapp (2).png',
+        body: 'Icono de Whatsapp',
+    })
 }
